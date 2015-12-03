@@ -58,15 +58,15 @@ github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-github "sublime_text", "1.1.0"
-github "omyzsh", "1.0.0", :repo => "erivello/puppet-ohmyzsh"
+#github "sublime_text", "1.1.0"
+#github "omyzsh", "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 
 
 github "dashlane", "1.0.1"
 github "chrome", "1.2.0"
 
 
-github "mongodb", "2.6.1"
+#github "mongodb", "2.6.1"
 
 
 # Optional/custom modules. There are tons available at
@@ -77,9 +77,9 @@ github "mongodb", "2.6.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
 
-github "virtualbox", "1.0.13"
-github "sonos", "1.0.4"
+#github "virtualbox", "1.0.13"
+#github "sonos", "1.0.4"
 
-github "heroku", "2.2.1"
-github "foreman", "1.2.0"
-github "gcc", "3.0.2"
+#github "heroku", "2.2.1"
+#github "foreman", "1.2.0"
+#github "gcc", "3.0.2"
