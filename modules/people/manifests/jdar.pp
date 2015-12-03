@@ -2,10 +2,10 @@ class people::jdar {
  
   notify { 'class people::jdar declared': }
   
-  include osx
-  osx::recovery_message {
-    'phone 202 630 5327':
-  }
+  #include osx
+  #osx::recovery_message {
+  #  'phone 202 630 5327':
+  #}
 
   git::config::global { 'user.email':
     value  => 'darius.roberts@gmail.com'
