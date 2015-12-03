@@ -145,5 +145,9 @@ repository { $dotfiles_dir:
   include gcc
   #class { 'gpgtools': }
 
+  class { 'ruby::global':
+    version => '2.2.3'
+  }
+
   include projects::all
 }
