@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-automake
+  specs:
+    automake (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.11.0)
@@ -124,6 +129,7 @@ GITHUBTARBALL
     module_data (0.0.4)
 
 DEPENDENCIES
+  automake (= 1.0.0)
   boxen (= 3.11.0)
   brewcask (= 0.0.6)
   chrome (= 1.2.0)
