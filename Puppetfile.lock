@@ -9,6 +9,16 @@ GITHUBTARBALL
     brewcask (0.0.6)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dashlane
+  specs:
+    dashlane (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
@@ -106,6 +116,8 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.11.0)
   brewcask (= 0.0.6)
+  chrome (= 1.2.0)
+  dashlane (= 1.0.1)
   dnsmasq (= 2.0.1)
   foreman (= 1.2.0)
   gcc (= 3.0.2)

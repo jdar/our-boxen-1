@@ -1,6 +1,8 @@
 class people::jdar {
  
   notify { 'class people::jdar declared': }
+  
+  include osx
   osx::recovery_message {
     'phone 202 630 5327':
   }
