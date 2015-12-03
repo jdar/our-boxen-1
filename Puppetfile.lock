@@ -89,6 +89,11 @@ GITHUBTARBALL
     iterm2 (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (2.6.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.6.0)
@@ -235,6 +240,7 @@ DEPENDENCIES
   inifile (= 1.4.1)
   iterm2 (= 1.2.5)
   module_data (= 0.0.4)
+  mongodb (= 2.6.1)
   nginx (= 1.6.0)
   nodejs (= 5.0.0)
   ohmyzsh (= 1.0.0)
