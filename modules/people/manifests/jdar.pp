@@ -138,8 +138,8 @@ repository { $dotfiles_dir:
   #class { 'osx::dock::position':
   #  position => 'right'
   #}
-  include bash
-  include bash::completion
+  #include bash
+  #include bash::completion
 
   #include osx::global::enable_keyboard_control_access
   include gcc
