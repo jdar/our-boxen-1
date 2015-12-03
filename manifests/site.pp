@@ -63,26 +63,6 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  #jdar - dev env
-  include ohmyzsh
-  include sublime_text
-  sublime_text::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
-  }
-  include mongodb
-
-  include virtualbox
-
-
-  #jdar - mac configuration
-  include dashlane
-  include chrome
-    
-
-
-
-
-
   # node versions
   nodejs::version { '0.12': }
 
