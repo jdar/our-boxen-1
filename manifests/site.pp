@@ -78,10 +78,10 @@ node default {
     version      => '~> 1.0',
     ruby_version => '*',
   }
-  ruby::rbenv::plugin { 'rbenv-vars':
-    ensure => 'v1.2.0',
-    source  => 'sstephenson/rbenv-vars'
-  }
+  #ruby::rbenv::plugin { 'rbenv-vars':
+  #  ensure => 'v1.2.0',
+  #  source  => 'sstephenson/rbenv-vars'
+  #}
 
 
 
@@ -89,6 +89,7 @@ node default {
   package {
     [
       'ack',
+      'tree',
       'findutils',
       'gnu-tar'
     ]:
