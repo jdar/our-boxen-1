@@ -61,7 +61,6 @@ class people::jdar {
   #}
 
 
-  include gpgme
   include skype
 
 
@@ -69,10 +68,7 @@ class people::jdar {
   include picasa
   include vlc
 
-#communication
   include tmux
-
-  require power::admin
 
   include dockutil
   dockutil::item { 'Add iTerm':
