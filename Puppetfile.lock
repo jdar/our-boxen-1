@@ -29,6 +29,11 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dockutil
+  specs:
+    dockutil (0.2.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -99,6 +104,11 @@ GITHUBTARBALL
     phantomjs (3.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-picasa
+  specs:
+    picasa (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
@@ -112,6 +122,11 @@ GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (8.5.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text
@@ -132,6 +147,11 @@ GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.3.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -170,6 +190,7 @@ DEPENDENCIES
   chrome (= 1.2.0)
   dashlane (= 1.0.1)
   dnsmasq (= 2.0.1)
+  dockutil (= 0.2.1)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   git (= 2.7.92)
@@ -187,14 +208,17 @@ DEPENDENCIES
   openssl (= 1.0.0)
   osx (= 2.8.0)
   phantomjs (= 3.0.0)
+  picasa (= 1.0.0)
   pkgconfig (= 1.0.0)
   repository (= 2.4.1)
   ruby (= 8.5.3)
+  skype (= 1.1.0)
   stdlib (= 4.7.0)
   sublime_text (= 1.1.0)
   sudo (= 1.0.0)
   tmux (= 1.0.2)
   vagrant (= 3.3.3)
+  vlc (= 1.1.0)
   wget (= 1.0.1)
   xquartz (= 1.2.1)
 
