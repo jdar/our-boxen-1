@@ -80,7 +80,7 @@ github "chrome", "1.2.0"
 #github "virtualbox", "1.0.13"
 #github "sonos", "1.0.4"
 
-#github "heroku", "2.1.1"
+github "heroku", "2.1.1"
 #github "foreman", "1.2.0"
 #github "gcc", "3.0.2"
 github "osx", "2.8.0"
