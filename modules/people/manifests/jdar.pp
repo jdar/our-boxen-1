@@ -111,10 +111,9 @@ repository { $dotfiles_dir:
 
   #utils
   include watts
-  include onyx
-  include xpdf
+#  include onyx
+#  include xpdf
   include dashlane
-  #include firefox
 
   class osx::safari::homepage($page) {
     boxen::osx_defaults { 'Set the Default Safari Homepage':
@@ -137,9 +136,9 @@ repository { $dotfiles_dir:
   include screen
   include googledrive
 #  include google_music_manager
-  include android_file_transfer
-  include tmux
-  include java
+#  include android_file_transfer
+#  include tmux
+#  include java
 
   #class { 'osx::dock::position':
   #  position => 'right'
