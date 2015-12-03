@@ -143,7 +143,7 @@ repository { $dotfiles_dir:
 
   #include osx::global::enable_keyboard_control_access
   include gcc
-  class { 'gpgtools': }
+  #class { 'gpgtools': }
 
   include projects::all
 }
