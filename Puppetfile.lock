@@ -218,6 +218,7 @@ DEPENDENCIES
   dockutil (= 0.2.1)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
+  gcc (= 3.0.2)
   git (= 2.7.92)
   gitx (= 1.2.0)
   go (= 2.1.0)
