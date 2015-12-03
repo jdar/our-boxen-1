@@ -77,7 +77,7 @@ github "chrome", "1.2.0"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
 
-#github "virtualbox", "1.0.13"
+github "virtualbox", "1.0.13"
 #github "sonos", "1.0.4"
 
 github "heroku", "2.1.1"
