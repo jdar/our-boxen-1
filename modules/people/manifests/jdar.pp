@@ -49,7 +49,7 @@ class people::jdar {
   #include chromedriver
   include iterm2::stable
 
-  include omyzsh
+  include ohmyzsh
   include sublime_text
   sublime_text::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
