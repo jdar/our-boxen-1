@@ -58,7 +58,7 @@ github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-#github "sublime_text", "1.1.0"
+github "sublime_text", "1.1.0"
 github "ohmyzsh", "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 
 
