@@ -239,6 +239,7 @@ DEPENDENCIES
   nodejs (= 5.0.0)
   ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
+  openssl (= 1.0.0)
   osx (= 2.8.0)
   phantomjs (= 3.0.0)
   picasa (= 1.0.0)

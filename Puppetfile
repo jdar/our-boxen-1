@@ -67,7 +67,7 @@ github "dashlane", "1.0.1"
 github "chrome", "1.2.0"
 
 
-#github "mongodb", "2.6.1"
+github "mongodb", "2.6.1"
 
 
 # Optional/custom modules. There are tons available at

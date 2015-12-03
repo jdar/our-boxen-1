@@ -64,6 +64,9 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
+  #
+  include mongodb
+
   # node versions
   nodejs::version { '0.12': }
 
