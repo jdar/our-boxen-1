@@ -67,8 +67,11 @@ node default {
   nodejs::version { '0.12': }
 
   # default ruby versions
+  ruby::version { '2.2.3': }
   ruby::version { '2.1.7': }
-  ruby::global { '2.2.3': }
+  class { 'ruby::global':
+    version => '2.2.3'
+  } 
 
   ruby_gem { 'bundler for all rubies':
     gem          => 'bundler',
