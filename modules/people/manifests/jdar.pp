@@ -27,6 +27,22 @@ class people::jdar {
   git::config::global { 'alias.sup': value => 'submodule update --init' }
   include gitx::dev
 
+  include automake
+  include dnsmasq
+  class { 'git' : version => '2.5.0' }
+  include hub
+  include nginx
+  include vagrant
+  include wget
+  #include tree 
+  #include docker
+  include awscli
+
+  include heroku
+  #heroku::plugin { 'accounts':
+  #  source => 'ddollar/heroku-accounts'
+  #}
+
 
   include chrome #todo: make dev setup, for testing chrome extensions
   include chromedriver
@@ -48,7 +64,6 @@ class people::jdar {
   include skype
 
 
-  include googledrive
   include sonos
   include picasa
   include vlc
@@ -65,9 +80,6 @@ class people::jdar {
         action   => "add",
         position => 2,
   }
-
- #typhonius/puppet-google-music-manager 
- include google_music_manager
 
 $dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 repository { $dotfiles_dir:
@@ -100,7 +112,7 @@ repository { $dotfiles_dir:
   include onyx
   include xpdf
   include dashlane
-  include firefox
+  #include firefox
 
   class osx::safari::homepage($page) {
     boxen::osx_defaults { 'Set the Default Safari Homepage':
@@ -120,7 +132,22 @@ repository { $dotfiles_dir:
     user   => 'jdar'
   }
 
+  include screen
+  include googledrive
+#  include google_music_manager
+  include android_file_transfer
+  include tmux
+  include java
+
+  #class { 'osx::dock::position':
+  #  position => 'right'
+  #}
+  include bash
+  include bash::completion
+
   #include osx::global::enable_keyboard_control_access
+  include gcc
+  class { 'gpgtools': }
 
   include projects::all
 }

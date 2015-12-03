@@ -78,4 +78,8 @@ github "mongodb", "2.6.1"
 # github "sysctl",      "1.0.1"
 
 github "virtualbox", "1.0.13"
+github "sonos", "1.0.4"
 
+github "heroku", "2.2.1"
+github "foreman", "1.2.0"
+github "gcc", "3.0.2"
