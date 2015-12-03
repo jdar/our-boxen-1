@@ -38,7 +38,6 @@ class people::jdar {
   include wget
   #include tree 
   #include docker
-  include awscli
 
   include heroku
   #heroku::plugin { 'accounts':
@@ -47,7 +46,7 @@ class people::jdar {
 
 
   include chrome #todo: make dev setup, for testing chrome extensions
-  include chromedriver
+  #include chromedriver
   include iterm2::stable
 
   include omyzsh
