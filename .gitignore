@@ -2,6 +2,7 @@
 /.librarian
 /.projects
 /.snapshot
+/vendor
 /.tmp
 /bin
 /config/local.rb
