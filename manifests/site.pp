@@ -68,7 +68,19 @@ node default {
 
   # default ruby versions
   ruby::version { '2.1.7': }
-  #ruby::version { '2.2.3': }
+  ruby::global { '2.2.3': }
+
+  ruby_gem { 'bundler for all rubies':
+    gem          => 'bundler',
+    version      => '~> 1.0',
+    ruby_version => '*',
+  }
+  ruby::rbenv::plugin { 'rbenv-vars':
+    ensure => 'v1.2.0',
+    source  => 'sstephenson/rbenv-vars'
+  }
+
+
 
   # common, useful packages
   package {
