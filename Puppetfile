@@ -90,6 +90,7 @@ github "vagrant", "3.3.3"
 github "wget", "1.0.1"
 github "tmux", "1.0.2"
 github "iterm2", "1.2.5"
+github "watts", "1.0.0"
 
 github "skype", "1.1.0"
 github "vlc", "1.1.0"
