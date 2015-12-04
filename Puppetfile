@@ -76,11 +76,10 @@ github "mongodb", "2.6.1"
 # github "elasticsearch", "2.8.0"
 # github "mysql",         "2.0.1"
 # github "postgresql",  "4.0.1"
-# github "redis",       "3.1.0"
+github "redis",       "3.2.0"
 # github "sysctl",      "1.0.1"
 
 github "virtualbox", "1.0.14", :repo=>"richardtoner/puppet-virtualbox"
-#github "sonos", "1.0.4"
 
 github "heroku", "2.1.1"
 #github "foreman", "1.2.0"
@@ -95,7 +94,8 @@ github "iterm2", "1.2.5"
 github "watts", "1.0.0"
 github "screen", "1.0.0"
 
-github "skype", "1.1.0"
+github 'joinme', '1.0.1'
+github "skype", "1.1.0" #<-- this doesn't have a url to stay on stable. boo.
 github "vlc", "1.1.0"
 github "picasa", "1.0.0"
 github "dockutil", "0.2.1"

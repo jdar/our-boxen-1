@@ -62,6 +62,7 @@ class people::jdar {
 
 
   include skype
+  include joinme 
 
 
   include sonos
