@@ -49,7 +49,12 @@ github "hub",         "1.4.1"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.6.0"
 github "nodejs",      "5.0.0"
+
+
+#GOTCHA: brew link openssl --force
+# https://github.com/eventmachine/eventmachine/issues/643 
 github "openssl",     "1.0.0"
+
 github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
