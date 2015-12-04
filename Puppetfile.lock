@@ -129,6 +129,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (3.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.4.1)
@@ -194,6 +199,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: brianvans/puppet-joinme
+  specs:
+    joinme (1.0.1)
+
+GITHUBTARBALL
   remote: erivello/puppet-ohmyzsh
   specs:
     ohmyzsh (1.0.0)
@@ -239,6 +249,7 @@ DEPENDENCIES
   hub (= 1.4.1)
   inifile (= 1.4.1)
   iterm2 (= 1.2.5)
+  joinme (= 1.0.1)
   module_data (= 0.0.4)
   mongodb (= 2.6.1)
   nginx (= 1.6.0)
@@ -250,6 +261,7 @@ DEPENDENCIES
   phantomjs (= 3.0.0)
   picasa (= 1.0.0)
   pkgconfig (= 1.0.0)
+  redis (= 3.2.0)
   repository (= 2.4.1)
   ruby (= 8.5.3)
   screen (= 1.0.0)
