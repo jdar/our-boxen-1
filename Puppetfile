@@ -94,7 +94,7 @@ github "iterm2", "1.2.5"
 github "watts", "1.0.0"
 github "screen", "1.0.0"
 
-github 'joinme', '1.0.1'
+github 'joinme', '1.0.1', :repo=>'brianvans/puppet-joinme'
 github "skype", "1.1.0" #<-- this doesn't have a url to stay on stable. boo.
 github "vlc", "1.1.0"
 github "picasa", "1.0.0"
