@@ -64,8 +64,8 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  #
-  include mongodb
+  #REMOVED. trying to install 2.6.0, which is not adequate. not adequate at all.
+  #include mongodb
 
   # node versions
   nodejs::version { '0.12': }
