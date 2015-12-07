@@ -104,6 +104,11 @@ GITHUBTARBALL
     nodejs (5.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onyx
+  specs:
+    onyx (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -255,6 +260,7 @@ DEPENDENCIES
   nginx (= 1.6.0)
   nodejs (= 5.0.0)
   ohmyzsh (= 1.0.0)
+  onyx (= 1.2.0)
   openssl (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 2.8.0)

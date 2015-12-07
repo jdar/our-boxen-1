@@ -94,13 +94,13 @@ repository { $dotfiles_dir:
 #  require => Repository["${dotfiles_dir}"],
 #}
 # but this is easier:
-#exec { "install dotfiles":
-#  cwd      => $dotfiles_dir,
-#  command  => "./script/bootstrap",
-#  provider => shell,
-#  creates  => "${home}/.zshrc",
-#  require  => Repository[$dotfiles_dir]
-#}
+exec { "install dotfiles":
+  cwd      => $dotfiles_dir,
+  command  => "./script/bootstrap",
+  provider => shell,
+  creates  => "${home}/.zshrc",
+  require  => Repository[$dotfiles_dir]
+}
 
 
   include virtualbox

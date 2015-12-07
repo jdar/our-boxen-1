@@ -97,6 +97,7 @@ github "wget", "1.0.1"
 github "tmux", "1.0.2"
 github "iterm2", "1.2.5"
 github "watts", "1.0.0"
+github "onyx", "1.2.0"
 github "screen", "1.0.0"
 
 github 'joinme', '1.0.1', :repo=>'brianvans/puppet-joinme'
