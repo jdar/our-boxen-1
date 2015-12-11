@@ -69,9 +69,13 @@ node default {
 
   # node versions
   nodejs::version { '0.12': }
+  class { 'nodejs::global':
+    version => '0.12'
+  }
 
   # default ruby versions
   ruby::version { '2.2.3': }
+  ruby::version { '2.2.2': }
   ruby::version { '2.1.7': }
   class { 'ruby::global':
     version => '2.2.3'
@@ -87,7 +91,18 @@ node default {
   #  source  => 'sstephenson/rbenv-vars'
   #}
 
-
+# gem install eventmachine -v '1.0.7' -- --with-cppflags=-I/opt/boxen//homebrew/opt/openssl/include/ 
+#  ruby_gem { 'eventmachine for all rubies':
+#      gem          => 'eventmachine',
+#      ruby_version => '*',
+#      option => '--with-cppflags=-I/opt/boxen//homebrew/opt/openssl/include/'
+#    }
+#gem install libv8 -v '3.16.14.7' -- --with-system-v8
+#ruby_gem { 'libv8 for all rubies':
+#    gem          => 'eventmachine',
+#    ruby_version => '*',
+#    option => '--with-system-v8'
+#  }
 
   # common, useful packages
   package {

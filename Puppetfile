@@ -70,6 +70,7 @@ github "ohmyzsh", "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 
 github "dashlane", "1.0.1"
 github "chrome", "1.2.0"
+github "firefox", "1.2.3"
 
 
 #github "mongodb", "1.4.0", :repo=>"richardtoner/puppet-virtualbox"

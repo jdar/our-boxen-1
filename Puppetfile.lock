@@ -34,6 +34,11 @@ GITHUBTARBALL
     dockutil (0.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.2.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -241,6 +246,7 @@ DEPENDENCIES
   dashlane (= 1.0.1)
   dnsmasq (= 2.0.1)
   dockutil (= 0.2.1)
+  firefox (= 1.2.3)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   gcc (= 3.0.2)
